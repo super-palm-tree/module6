@@ -1,17 +1,17 @@
 body {
-	background-color: #CFDBDB;
+	background-color: #EBFFF6;
 	font-family: Verdana, sans-serif;
 }
 
 header {
 	padding: .5em;
 	grid-area: header;
-	background-color: #90B49E;
+	background-color: #D7EFC2;
 }
 
 nav {
 	padding: .2em;
-	background-color: #AAD2EB;
+	background-color: #D6EDF0;
 	grid-area: nav;
 }
 
@@ -22,7 +22,7 @@ main {
 footer {
 	padding: .5em;
 	grid-area: footer;
-	background-color: #90B49E;
+	background-color: #D7EFC2;
 }
 
 #iuindy {
