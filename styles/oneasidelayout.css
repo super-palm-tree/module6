@@ -1,0 +1,36 @@
+/*add this stylesheet below mainstyle to format a page with an aside*/
+
+aside {
+	grid-area: aside;
+}
+
+.grid-container {
+	grid-template-areas:
+		'header header header header header header'
+		'nav nav main main main aside'
+		'nav nav main main main aside'
+		'footer footer footer footer footer footer';
+}
+
+/*FIRST BREAK POINT === tablet */
+@media only screen and (max-width : 800px) {
+	.grid-container {
+		grid-template-areas:
+			'nav nav nav nav nav nav'
+			'header header header header header header'
+			'main main main main aside aside'
+			'footer footer footer footer footer footer';
+            }
+}
+
+/*SECOND BREAK POINT === mobile */
+@media only screen and (max-width : 600px) {
+	.grid-container {
+		grid-template-areas:
+			'nav nav nav nav nav nav'
+			'header header header header header header'
+			'main main main main main main'
+			'aside aside aside aside aside aside'
+			'footer footer footer footer footer footer';
+	}
+}
