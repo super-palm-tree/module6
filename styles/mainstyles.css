@@ -1,5 +1,5 @@
 body {
-	background-color: #B5EFF2;
+	background-color: #AFD3D5;
 	font-family: Verdana, sans-serif;
 }
 
@@ -39,6 +39,25 @@ footer {
 
 .wideiframe {
 	width: 100%;
+}
+
+/*video styling taken from iframe example*/
+#kalturavidcontainer {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;   /* 16:9 Aspect Ratio */
+}
+
+#kalturavid {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
 
 /*page formatting with no aside--use oneasidelayout file to format with aside*/
