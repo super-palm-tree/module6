@@ -6,7 +6,7 @@ body {
 header {
 	padding: .5em;
 	grid-area: header;
-	background-color: #888DAE;
+	background-color: #90B49E;
 }
 
 nav {
@@ -22,7 +22,7 @@ main {
 footer {
 	padding: .5em;
 	grid-area: footer;
-	background-color: #888DAE;
+	background-color: #90B49E;
 }
 
 #iuindy {
